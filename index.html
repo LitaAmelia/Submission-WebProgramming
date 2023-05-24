@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+    <title>Gadis Florist</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <img src="assets/img/background3.png">
+            <h2>Gadis Florist</h2>
+            <h4>A Floral Journey Like No Other:<br>Be Awed by Nature's Finest Creations</h4>
+            <button class="button-shop" id="shop-button" onclick="showModal()">Shop Now</button>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                <span class="close" onclick="hideModal()">&times;</span>
+                <p>Hello Dear!<br>You can order our florist at 2027</p>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="navbar-right">
+                <a href="#about" class="nav-link">About</a>
+                <div class="dropdown">
+                    <button id="category-dropdown-btn" class="dropdown-btn">Category</button>
+                    <div id="category-dropdown-content" class="dropdown-content">
+                        <a href="#category1">Fresh Flower Bouquet</a>
+                        <a href="#category2">Blossom Box Flower</a>
+                        <a href="#category3">Standing Flower</a>
+                    </div>
+                </div>
+                <a href="#profile" class="nav-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <aside>
+                <div class="sidebar">
+                    <div class="card">
+                        <h2 id="profile">Contact</h2>
+                        <div class="profile-container">
+                            <img src="assets/img/lita2.jpg" alt="Profile Image" class="profile-image">
+                            <div class="profile-info">
+                                <h3>Lita Amelia</h3>
+                                <p>Email: litaamelia126@gmail.com</p>
+                                <p>Phone: +62 8227996xxxx</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div id="main-content">
+                <article class="card">
+                    <h2 id="about">About Gadis Florist</h2>
+                    <div style="display: flex; align-items: center;">
+                        <p style="flex-grow: 1;">At Gadis Florist, we believe that flowers have the power to brighten lives, evoke emotions, and transform any space into a captivating oasis. With a passion for floristry and an unwavering commitment to excellence, we have been serving our customers with exquisite floral arrangements and exceptional service for over a decade.
+                        <br><br>Our journey began with a simple vision - to create unforgettable floral experiences that leave a lasting impression. From enchanting bouquets to stunning centerpieces, every arrangement we craft is a reflection of our dedication to quality, creativity, and meticulous attention to detail.</p>
+                        <img src="assets/img/about.png" width="40%" style="margin-left: 20px;">
+                    </div>
+                </article>
+             
+                <article class="card"> 
+                    <h2 id="category">Categories</h2>
+                    <section>
+                        <h4 id="category1">Fresh Flower Bouquet</h4>
+                        <div class="category-content">
+                            <img src="assets/img/category1.jpeg" width="30%">
+                            <p>Indulge in the vibrant beauty of our fresh flower bouquets, handcrafted with love and care. Each bouquet is a delightful ensemble of nature's finest blooms, expertly arranged to bring joy and elegance to any occasion.</p>
+                        </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h4 id="category2">Blossom Box Flower</h4>
+                        <div class="category-content">
+                            <img src="assets/img/category2.jpeg" width="30%">
+                            <p>Experience the enchantment of our exquisite blossom box flowers. These artfully arranged floral creations come in charming boxes, making them a perfect gift or centerpiece. Discover the magic of blossoms elegantly presented in a unique and captivating way.</p>
+                        </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h4 id="category3">Standing Flower</h4>
+                        <div class="category-content">
+                            <img src="assets/img/category3.jpeg" width="30%">
+                            <p>Elevate any space with our stunning standing flowers. These majestic floral arrangements command attention and create a grand ambiance. Whether for corporate events, weddings, or special celebrations, our standing flowers make a statement and leave a lasting impression.</p>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright Gadis Florist &#169; 2023</p>
+    </footer>
+</body>
+</html>
